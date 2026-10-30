@@ -1,0 +1,12 @@
+{
+  "name": "live-notify-gaming-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/notification_service.ts",
+    "test": "node --experimental-strip-types src/notification_service.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.25.0"
+  }
+}
